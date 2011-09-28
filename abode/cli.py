@@ -26,9 +26,6 @@ def upload(remote='heroku'):
     #: Git remote collector.
     remotes = dict()
 
-    #: for testing.
-    os.chdir('/Users/kreitz/httpbintest')
-
     # The current path to the application.
     app_path = os.getcwd()
 
